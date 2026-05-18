@@ -1,0 +1,178 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0be1e9c4-0661-450b-90e4-640774e4c7c6")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "high side current sense for every rail. INA219 or discrete opamp based curent shunt monitor.\ninterface to stm32 w i2c, calcaulte real time efficiency.\nmission control dashboard for payloads power consumption.\n\nlatch up protection. eFuse or HOT SWAP controller circuit w fet and comparator.\n\nemi and signal integrity. "
+		(exclude_from_sim no)
+		(at 330.2 52.07 0)
+		(size 134.62 100.33)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "2d6680d3-acee-4b6c-9dd2-255298df1053")
+	)
+	(text_box "TELEMETRY\n\nPGOOD: open drain sig from IC to MCU that rail is within target\n\nISENSE: across shunt\n\nQSENSE: if temp > 85C (qual?) in vacc, MCU automatically Load Sheds (shut down payload). "
+		(exclude_from_sim no)
+		(at 152.4 -50.8 0)
+		(size 86.36 45.72)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "617a6026-aaad-471a-8354-ab92bd7bf98c")
+	)
+	(text_box "CONTROL SIGNALS\n\nVSEL: DAC driven R in FB loop, MCU trim output. Bump to compensate harnessing losses etc. \n\nSYNC: feed PWM in to force reg to sw at ecact freq (no noise drifting to radio freqs)."
+		(exclude_from_sim no)
+		(at 49.53 -50.8 0)
+		(size 86.36 39.37)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "dc374f62-8627-469e-baee-c571799877be")
+	)
+	(hierarchical_label "REG_PGOOD"
+		(shape output)
+		(at 48.26 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0483944f-546e-480f-addc-13fab0d10a80")
+	)
+	(hierarchical_label "REG_SYNC"
+		(shape input)
+		(at 48.26 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c99681b-ec20-4924-9835-292671b02f50")
+	)
+	(hierarchical_label "FAULT_IRQ"
+		(shape output)
+		(at 48.26 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2522b1ba-01ad-4921-a8e2-90bb12f742c0")
+	)
+	(hierarchical_label "REG_ISENSE"
+		(shape output)
+		(at 48.26 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e0ea929-c4cd-44bc-a8b9-6fea4d30962f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 48.26 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42b88e65-a5e7-4d18-bc0e-ec6242f5c79a")
+	)
+	(hierarchical_label "REG_EN"
+		(shape input)
+		(at 48.26 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fba3ad7-fd11-407f-ad48-5f6737c76f65")
+	)
+	(hierarchical_label "TEMP_ANA"
+		(shape output)
+		(at 48.26 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "872189f3-326b-47a0-ab1d-35ba5ac960bf")
+	)
+	(hierarchical_label "LED_STATUS"
+		(shape input)
+		(at 48.26 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ec7eca2-f3ed-4aa6-b54b-afa522e538e7")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 48.26 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "becf01c8-7845-412e-ba21-4aed579fbd60")
+	)
+	(hierarchical_label "VSEL"
+		(shape input)
+		(at 48.26 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc5a5fcb-cacd-43bd-b866-1b771a8577ff")
+	)
+)
