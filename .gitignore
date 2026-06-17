@@ -1,0 +1,10 @@
+# KiCad temporary and backup files
+*.kicad_prl
+*.bak
+*-bak
+*~
+_saved_*
+fp-info-cache
+
+# Output directories (Gerbers/Drill files)
+# /plots/
