@@ -18666,7 +18666,7 @@
 			(uuid "e4d76096-7ce2-4789-b2e6-e09ea904f39f")
 		)
 		(instances
-			(project ""
+			(project "PIM_V01"
 				(path "/5c384f20-cda4-438f-85a2-a3fc55c6427a/5d6e84fd-6cc0-4426-8924-60242cc7c477"
 					(reference "U12")
 					(unit 1)

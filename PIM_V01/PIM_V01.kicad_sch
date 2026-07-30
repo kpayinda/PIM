@@ -28469,7 +28469,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PAYLOAD_POWER.kicad_sch"
+		(property "Sheetfile" "POWER.kicad_sch"
 			(at 29.21 274.2696 0)
 			(effects
 				(font
