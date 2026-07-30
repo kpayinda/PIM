@@ -6757,7 +6757,7 @@
 		(uuid "ffc754af-fd90-4635-a0c8-6bf9c1a7da77")
 	)
 	(image
-		(at 69.85 209.55)
+		(at -65.405 220.345)
 		(uuid "313d26c2-b9df-4737-93a1-d635576c077d")
 		(data "iVBORw0KGgoAAAANSUhEUgAABTQAAAN2CAYAAADHVwZTAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3WdYFNfbBvCbsgISBRQrirGgJoqiqDEKYtBoEkTBggVRLNhiNyb2jl2xN8QSNdbEgjXGhthR"
@@ -8958,7 +8958,7 @@
 		)
 	)
 	(image
-		(at 97.155 15.875)
+		(at -38.1 -25.4)
 		(uuid "6af4fd03-6af8-4720-a36b-e7d35c635955")
 		(data "iVBORw0KGgoAAAANSUhEUgAABoYAAAIKCAYAAAAOIf1YAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsnWdYVFcTx//37i4d6aCAKBYUuwJ2iVhiC3Zj7y2JPaaZolHjGxM1lqgxibH3jt3YS7BhLNgF"
@@ -10498,7 +10498,7 @@
 		)
 	)
 	(image
-		(at 268.605 209.55)
+		(at 492.76 203.2)
 		(scale 0.685889)
 		(uuid "fa555df4-bf40-4bac-9c30-86e2ef4cd1eb")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB1QAAAQKCAYAAAD3m0jWAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
