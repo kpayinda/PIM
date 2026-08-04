@@ -15530,7 +15530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "100R"
 			(at 151.13 237.4899 0)
 			(effects
 				(font
@@ -16455,6 +16455,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 148.59 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608PGC-06"
+			(at 148.59 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" "CHIP LED 0603 GREEN SMD"
+			(at 148.59 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19284,6 +19302,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1608PGC-06"
+			(at 134.62 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" "CHIP LED 0603 GREEN SMD"
+			(at 134.62 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1148a02-7243-432b-bbfd-0a225fba89ad")
 		)
@@ -21303,7 +21339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "100R"
 			(at 185.42 237.4899 0)
 			(effects
 				(font
@@ -21549,6 +21585,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 182.88 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608PGC-06"
+			(at 182.88 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" "CHIP LED 0603 GREEN SMD"
+			(at 182.88 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23188,6 +23242,24 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 168.91 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1608PGC-06"
+			(at 168.91 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PD" "CHIP LED 0603 GREEN SMD"
+			(at 168.91 243.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
