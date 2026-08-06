@@ -1,4 +1,4 @@
-27231507939744713
+27231514382744313
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60183,8 +60183,8 @@ DSG0008A
 
 TPS259541DSGR 
 0
-11
-10
+9
+9
 CustomFootprints
 L_Wurth_WE-LHMI-7030
 Shielded Power Inductor, body 7.3x6.6x2.8mm, https://www.we-online.com/en/components/products/WE-LHMI#/articles/WE-LHMI-7030
@@ -60204,14 +60204,14 @@ PowerPAK-SO-8L_Option-2_VIS
 
 SQJ407EP-T1_GE3 
 0
-5
+10
 5
 CustomFootprints
 QFN-16_MP28167_MNP
 
 MP28167GQ-A-P 
 0
-16
+17
 16
 CustomFootprints
 SMBJ16A

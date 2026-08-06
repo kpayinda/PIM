@@ -28,13 +28,13 @@
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_thickness": 0.1,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_thickness": 0.1,
         "other_text_upright": false,
         "pads": {
           "drill": 0.762,
@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|442314100|82401846|680fb092-6cca-473e-b597-587372579bd3|54bcaa7d-ff08-406f-85f4-e2143dcbff5a",
+          ""
+        ],
+        [
+          "hole_clearance|442314100|82401846|8a46edbe-4def-491d-9631-12b8b3df82ae|54bcaa7d-ff08-406f-85f4-e2143dcbff5a",
+          ""
+        ],
+        [
+          "hole_clearance|442314100|88501846|81bbf2ca-ee7a-4da6-9c9c-6adb80d5494b|72d3e61a-c771-49e4-a5b6-5732c71dd86e",
+          ""
+        ],
+        [
+          "hole_clearance|442314100|88501846|d882eedc-f18e-4d18-935f-e7cbaa9ad6db|72d3e61a-c771-49e4-a5b6-5732c71dd86e",
+          ""
+        ],
+        [
+          "missing_courtyard|487921353|108296100|55af4f39-ed88-4734-a4d3-47be4aaf6f61|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -76,9 +97,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -93,23 +114,23 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -124,12 +145,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.05,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.1,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -237,7 +258,72 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          2,
+          25,
+          29
+        ],
+        "name": "BOT",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          25,
+          31
+        ],
+        "name": "TOP",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],

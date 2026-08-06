@@ -5003,7 +5003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 149.86 0)
 			(effects
 				(font
@@ -5559,7 +5559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 264.16 165.1 0)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 264.16 95.25 0)
 			(effects
 				(font
@@ -7551,7 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 80.01 0)
 			(effects
 				(font
